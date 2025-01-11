@@ -48,3 +48,11 @@ flask-crud-app/<br>
 ├── requirements.txt      
 ├── README.md            
 └── config.py        
+
+
+
+# Output
+
+![Screenshot 2025-01-11 103712](https://github.com/user-attachments/assets/321fe4f2-e114-4bb0-802a-b9b1b5c06758)
+
+![Screenshot 2025-01-11 103755](https://github.com/user-attachments/assets/9724ed76-20fe-4ea3-b7af-0551939fea52)
