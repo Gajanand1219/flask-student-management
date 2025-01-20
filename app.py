@@ -108,7 +108,7 @@ def delete(id):
             db.session.delete(students)
             db.session.commit()
             return redirect('/')
-            abort(404)
+            abort(405)
      #return redirect('/')
     return render_template('delete.html')
  
