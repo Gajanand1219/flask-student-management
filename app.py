@@ -20,8 +20,8 @@ def create():
     if request.method == 'POST':
 
         hobby = request.form.getlist('hobbies')
-        #hobbies = ','.join(map(str, hobby))
-        hobbies=",".join(map(str, hobby))
+        hobbies = ','.join(map(str, hobby))
+        # hobbies=",".join(map(str, hobby))
 
 
         first_name = request.form['first_name']
