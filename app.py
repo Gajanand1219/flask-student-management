@@ -15,7 +15,7 @@ db.init_app(app)
 @app.route('/create' , methods = ['GET','POST'])
 def create():
     if request.method == 'GET':
-        return render_template('createpage.html')
+        retur render_template('createpage.html')
  
     if request.method == 'POST':
 
