@@ -12,7 +12,7 @@ class StudentModel(db.Model):
     password = db.Column(db.String())
     gender = db.Column(db.String())
     hobbies = db.Column(db.String())
-    country = db.Column(db.String(80))
+    country = db.Column(db.String(70))
  
     def __init__(self, first_name,last_name,email,password,gender,hobbies,country):
         self.first_name = first_name
