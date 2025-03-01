@@ -13,7 +13,7 @@ db.init_app(app)
 #     db.create_all(
 
  
-@app.route('/create' , methods = ['GET','POST'])
+# @app.route('/create' , methods = ['GET','POST'])
 def create():
     if request.method == 'GET':
         retur render_template('createpage.html')
